@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Desktop\\Project PizzaApp\\.NetWebApi\\PizzaApp\\PizzaApp\\PizzaApp.csproj": {}
+    "C:\\Users\\User\\Desktop\\Project PizzaApp\\.NetWebApi\\PizzaApp\\PizzaApp.DataAccess\\PizzaApp.DataAccess.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Desktop\\Project PizzaApp\\.NetWebApi\\PizzaApp\\PizzaApp\\PizzaApp.csproj": {
+    "C:\\Users\\User\\Desktop\\Project PizzaApp\\.NetWebApi\\PizzaApp\\PizzaApp.DataAccess\\PizzaApp.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\Project PizzaApp\\.NetWebApi\\PizzaApp\\PizzaApp\\PizzaApp.csproj",
-        "projectName": "PizzaApp",
-        "projectPath": "C:\\Users\\User\\Desktop\\Project PizzaApp\\.NetWebApi\\PizzaApp\\PizzaApp\\PizzaApp.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\Project PizzaApp\\.NetWebApi\\PizzaApp\\PizzaApp.DataAccess\\PizzaApp.DataAccess.csproj",
+        "projectName": "PizzaApp.DataAccess",
+        "projectPath": "C:\\Users\\User\\Desktop\\Project PizzaApp\\.NetWebApi\\PizzaApp\\PizzaApp.DataAccess\\PizzaApp.DataAccess.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\Project PizzaApp\\.NetWebApi\\PizzaApp\\PizzaApp\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\Project PizzaApp\\.NetWebApi\\PizzaApp\\PizzaApp.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -43,14 +43,6 @@
             "Microsoft.AspNet.Identity.EntityFramework": {
               "target": "Package",
               "version": "[2.2.4, )"
-            },
-            "Microsoft.AspNetCore.OpenApi": {
-              "target": "Package",
-              "version": "[7.0.3, )"
-            },
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[6.4.0, )"
             }
           },
           "imports": [
@@ -65,9 +57,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

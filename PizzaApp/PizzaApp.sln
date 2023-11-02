@@ -5,6 +5,10 @@ VisualStudioVersion = 17.5.33414.496
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaApp", "PizzaApp\PizzaApp.csproj", "{E6128AAD-BDCF-4167-AD37-DAD55FF063F3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaApp.Domain", "PizzaApp.Domain\PizzaApp.Domain.csproj", "{550C07DE-A1F7-4C77-AFC9-2091CFB62FF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaApp.DataAccess", "PizzaApp.DataAccess\PizzaApp.DataAccess.csproj", "{23B55F62-DF62-4051-B3FE-92FF56AA4E14}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{E6128AAD-BDCF-4167-AD37-DAD55FF063F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E6128AAD-BDCF-4167-AD37-DAD55FF063F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E6128AAD-BDCF-4167-AD37-DAD55FF063F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{550C07DE-A1F7-4C77-AFC9-2091CFB62FF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{550C07DE-A1F7-4C77-AFC9-2091CFB62FF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{550C07DE-A1F7-4C77-AFC9-2091CFB62FF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{550C07DE-A1F7-4C77-AFC9-2091CFB62FF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23B55F62-DF62-4051-B3FE-92FF56AA4E14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23B55F62-DF62-4051-B3FE-92FF56AA4E14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23B55F62-DF62-4051-B3FE-92FF56AA4E14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23B55F62-DF62-4051-B3FE-92FF56AA4E14}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
